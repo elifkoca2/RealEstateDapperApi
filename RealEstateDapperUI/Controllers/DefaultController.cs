@@ -39,7 +39,7 @@ namespace RealEstateDapperUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult PartialSearch(string searchKeyValue, string propertyCategoryId, int city)
+        public IActionResult PartialSearch(string searchKeyValue, int propertyCategoryId, string city)
         {
             TempData["searchKeyValue"] = searchKeyValue;
             TempData["propertyCategoryId"] = propertyCategoryId;
