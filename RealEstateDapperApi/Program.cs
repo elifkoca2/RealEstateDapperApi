@@ -15,6 +15,7 @@ using RealEstateDapperApi.Repositories.ProductRepository;
 using RealEstateDapperApi.Repositories.PropertyAmenityRepositories;
 using RealEstateDapperApi.Repositories.ServiceRepository;
 using RealEstateDapperApi.Repositories.StatisticsRepositories;
+using RealEstateDapperApi.Repositories.SubFeatureRepositories;
 using RealEstateDapperApi.Repositories.TestimonialRepositories;
 using RealEstateDapperApi.Repositories.ToDoListRepositories;
 using RealEstateDapperApi.Repositories.WhoWeAreRepository;
@@ -43,6 +44,7 @@ builder.Services.AddTransient<IMessageRepository , MessageRepository>();
 builder.Services.AddTransient<IProductImageRepository , ProductImageRepository>();
 builder.Services.AddTransient<IAppUserRepository , AppUserRepository>();
 builder.Services.AddTransient<IPropertyAmenityRepository , PropertyAmenityRepository>();
+builder.Services.AddTransient<ISubFeatureRepository , SubFeatureRepository>();
 
 
 
